@@ -16,7 +16,7 @@ const neighbours = [
   { id: 2, name: "Apoorva", usage: 125, renewable: 55 },
   { id: 3, name: "You", usage: 131, renewable: 47 },
   { id: 4, name: "Parla", usage: 150, renewable: 40 },
-  { id: 5, name: "are yrr", usage: 170, renewable: 35 },
+  { id: 5, name: "Vignesh", usage: 170, renewable: 35 },
 ];
 
 export default function LeaderboardPage() {
