@@ -1,0 +1,58 @@
+# Zen Commit Configuration
+# https://github.com/yourusername/zc
+
+[project]
+name = "my-project"
+description = "Project description"
+
+[scopes]
+# Define scopes specific to your project
+# These will be suggested when creating commits
+enabled = true
+list = [
+  "api",
+  "ui",
+  "auth",
+  "database",
+  "docs",
+  "config",
+  "tests"
+]
+
+[commit]
+# Maximum length for commit subject line
+max_length = 72
+
+# Require scope for all commits
+require_scope = false
+
+# Add ticket/issue number to commits
+# Example: feat(api): add endpoint [TICKET-123]
+ticket_prefix = ""  # e.g., "JIRA-", "GH-", etc.
+
+[breaking]
+# Require description for breaking changes
+require_description = true
+
+[emoji]
+# Enable emoji in commit messages
+enabled = false
+
+# Emoji mapping for commit types
+[emoji.types]
+feat = "✨"
+fix = "🐛"
+docs = "📝"
+style = "💄"
+refactor = "♻️"
+perf = "⚡"
+test = "✅"
+build = "🏗️"
+ci = "👷"
+chore = "🔧"
+revert = "⏪"
+
+[hooks]
+# Run commands before/after commit
+# pre_commit = "npm test"
+# post_commit = "echo 'Committed successfully!'"
