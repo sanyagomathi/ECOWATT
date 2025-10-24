@@ -16,7 +16,7 @@ export default function Sidebar({ current = "/dashboard" }) {
     <aside className="w-64 bg-emerald-900 text-white min-h-screen p-4 flex flex-col">
       {/* Logo */}
       <h2 className="text-2xl font-extrabold mb-8 text-emerald-200">
-        ⚡ Ecowatt
+        ⚡ Kundiwatt
       </h2>
 
       {/* Navigation */}
